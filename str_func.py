@@ -1,10 +1,11 @@
 def get_upper(value):
     """Делает заглавными все буквы в строке"""
-    return value.upper()
+    return f'Строка в верхнем регистре: {value.upper()}'
+
 
 
 def get_title(value):
     """Делает заглавными первые буквы каждого слова"""
-    return value.title()
+    return f'Строка с первыми заглавными буквами: {value.title()}'
 
 
